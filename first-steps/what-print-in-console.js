@@ -6,7 +6,7 @@ const obj2 = obj1;
 
 obj2.x = 8;
 
-console.log(obj1.x)
+console.log(obj1.x)//8
 
 let a = 5;
 let b = a;
