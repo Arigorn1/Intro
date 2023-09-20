@@ -25,17 +25,17 @@ console.log(15 + 3 + "number")//18"number"
 console.log("foo" + +"bar")//"fooNaN"
 console.log('true' == true)//true
 console.log(!!"false" == !!"true")//true
-console.log(false == 'false')//false логическое значение неравно строке
+console.log(false == 'false')//false
 console.log(null == '')//false
 console.log(null > 0)//false
 console.log(null == 0)//false
 console.log(null >= 0)//true
-console.log(null == undefined)//true тк равны друг другу и ничему больше
-console.log(null === undefined)//false разные типы
+console.log(null == undefined)//true
+console.log(null === undefined)//false
 
 
 //Приведение типов с объектами
-console.log([1] > null)//true числовое преобразование NaN
+console.log([1] > null)//true
 console.log([1, 2] > null)//false
 console.log(['x'] == 'x')//true 
 console.log([] + null + 1)//"null1"
