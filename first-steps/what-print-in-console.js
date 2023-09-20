@@ -17,7 +17,7 @@ console.log(a);//5
 console.log(b);//9
 
 //Приведение типов примитивов
-console.log(true + false)//
+console.log(true + false)//1
 console.log(12 / "6")//2
 console.log(12 < "6")//false
 console.log("number" + 15 + 3)//"number153"
